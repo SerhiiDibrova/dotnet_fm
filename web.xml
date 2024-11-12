@@ -1,0 +1,10 @@
+<!-- web.config -->
+<configuration>
+  <connectionStrings>
+    <add name="DefaultConnection" connectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MyAppDB;Integrated Security=True" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <system.web>
+    <compilation debug="true" targetFramework="4.8" />
+    <httpRuntime targetFramework="4.8" />
+  </system.web>
+</configuration>
